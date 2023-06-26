@@ -6,6 +6,28 @@
   --verylightgray: hsl(0, 0%, 95%);
 }
 
+body {
+  font-size: 15px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 5px solid tomato;
+}
+
+.card-plan {
+  border: none;
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  background-color: tomato;
+  border-radius: 1px;
+  text-align: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
