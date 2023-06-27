@@ -18,12 +18,32 @@ body {
   border: 5px solid tomato;
 }
 
-.card-plan {
+.card-plan-sedans {
   border: none;
   flex: 1;
   max-width: 300px;
   padding: 20px;
-  background-color: tomato;
+  background-color: var(--brightorange);
+  border-radius: 1px;
+  text-align: center;
+}
+
+.card-plan-suvs {
+  border: none;
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  background-color: var(--darkcyan);
+  border-radius: 1px;
+  text-align: center;
+}
+
+.card-plan-luxury {
+  border: none;
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  background-color: var(--verydarkcyan);
   border-radius: 1px;
   text-align: center;
 }
