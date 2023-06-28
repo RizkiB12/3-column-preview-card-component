@@ -48,6 +48,23 @@ body {
   text-align: center;
 }
 
+.button-one {
+  padding: 0.5em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid var(--transparentwhite);
+  border-radius: 2em;
+  text-decoration: none;
+  font-weight: 300;
+  color: var(--brightorange);
+  transition: all 0.2s;
+  background-color: #ffffff;
+}
+
+.button-one:hover {
+  background-color: var(--brightorange);
+  color: var(--transparentwhite);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
