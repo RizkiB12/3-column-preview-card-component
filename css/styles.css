@@ -65,7 +65,24 @@ body {
   color: var(--transparentwhite);
 }
 
-.attribution {
+.button-two {
+  padding: 0.5em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid var(--transparentwhite);
+  border-radius: 2em;
+  text-decoration: none;
+  font-weight: 300;
+  color: var(--darkcyan);
+  transition: all 0.2s;
+  background-color: #ffffff;
+}
+
+.button-two:hover {
+  background-color: var(--darkcyan);
+  color: var(--transparentwhite);
+}
+
+.button- .attribution {
   font-size: 11px;
   text-align: center;
 }
