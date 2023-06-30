@@ -16,36 +16,79 @@ body {
   align-items: center;
   height: 100vh;
   border: 5px solid tomato;
+  box-sizing: border-box;
 }
 
 .card-plan-sedans {
   border: none;
   flex: 1;
-  max-width: 300px;
-  padding: 20px;
+  max-width: 200px;
+  padding: 30px;
   background-color: var(--brightorange);
   border-radius: 1px;
-  text-align: center;
+  text-align: start;
+}
+
+.sedans-title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.sedans-paragraf {
+  color: var(--transparentwhite);
+  line-height: 1.5rem;
+  font-size: 15px;
+  margin-bottom: 5rem;
 }
 
 .card-plan-suvs {
   border: none;
   flex: 1;
-  max-width: 300px;
-  padding: 20px;
+  max-width: 200px;
+  padding: 30px;
   background-color: var(--darkcyan);
   border-radius: 1px;
-  text-align: center;
+  text-align: start;
+}
+
+.suvs-title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.suvs-paragraf {
+  color: var(--transparentwhite);
+  line-height: 1.5rem;
+  font-size: 15px;
+  margin-bottom: 5rem;
 }
 
 .card-plan-luxury {
   border: none;
   flex: 1;
-  max-width: 300px;
-  padding: 20px;
+  max-width: 200px;
+  padding: 30px;
   background-color: var(--verydarkcyan);
   border-radius: 1px;
-  text-align: center;
+  text-align: start;
+}
+
+.luxury-title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.luxury-paragraf {
+  color: var(--transparentwhite);
+  line-height: 1.5rem;
+  font-size: 15px;
+  margin-bottom: 5rem;
 }
 
 .button-one {
@@ -79,6 +122,23 @@ body {
 
 .button-two:hover {
   background-color: var(--darkcyan);
+  color: var(--transparentwhite);
+}
+
+.button-three {
+  padding: 0.6em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid var(--transparentwhite);
+  border-radius: 2em;
+  text-decoration: none;
+  font-weight: 300;
+  color: var(--verydarkcyan);
+  transition: all 0.2s;
+  background-color: #ffffff;
+}
+
+.button-three:hover {
+  background-color: var(--verydarkcyan);
   color: var(--transparentwhite);
 }
 
