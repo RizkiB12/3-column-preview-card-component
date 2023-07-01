@@ -15,7 +15,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  border: 5px solid tomato;
   box-sizing: border-box;
 }
 
@@ -31,7 +30,7 @@ body {
 
 .sedans-title {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #ffffff;
   margin-bottom: 2rem;
   font-family: "Big Shoulders Display", cursive;
@@ -40,8 +39,9 @@ body {
 .sedans-paragraf {
   color: var(--transparentwhite);
   line-height: 1.5rem;
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 5rem;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .card-plan-suvs {
@@ -56,7 +56,7 @@ body {
 
 .suvs-title {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #ffffff;
   margin-bottom: 2rem;
   font-family: "Big Shoulders Display", cursive;
@@ -65,8 +65,9 @@ body {
 .suvs-paragraf {
   color: var(--transparentwhite);
   line-height: 1.5rem;
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 5rem;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .card-plan-luxury {
@@ -81,7 +82,7 @@ body {
 
 .luxury-title {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #ffffff;
   margin-bottom: 2rem;
   font-family: "Big Shoulders Display", cursive;
@@ -90,8 +91,9 @@ body {
 .luxury-paragraf {
   color: var(--transparentwhite);
   line-height: 1.5rem;
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 5rem;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .button-one {
@@ -151,4 +153,7 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen {
 }
