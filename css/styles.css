@@ -97,7 +97,7 @@ body {
 }
 
 .button-one {
-  padding: 0.5em 1.2em;
+  padding: 0.5em 1.8em;
   margin: 0 0.1em 0.1em 0;
   border: 0.16em solid var(--transparentwhite);
   border-radius: 2em;
@@ -106,6 +106,7 @@ body {
   color: var(--brightorange);
   transition: all 0.2s;
   background-color: #ffffff;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .button-one:hover {
@@ -114,7 +115,7 @@ body {
 }
 
 .button-two {
-  padding: 0.5em 1.2em;
+  padding: 0.5em 1.8em;
   margin: 0 0.1em 0.1em 0;
   border: 0.16em solid var(--transparentwhite);
   border-radius: 2em;
@@ -123,6 +124,7 @@ body {
   color: var(--darkcyan);
   transition: all 0.2s;
   background-color: #ffffff;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .button-two:hover {
@@ -131,7 +133,7 @@ body {
 }
 
 .button-three {
-  padding: 0.6em 1.2em;
+  padding: 0.5em 1.8em;
   margin: 0 0.1em 0.1em 0;
   border: 0.16em solid var(--transparentwhite);
   border-radius: 2em;
@@ -140,6 +142,7 @@ body {
   color: var(--verydarkcyan);
   transition: all 0.2s;
   background-color: #ffffff;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .button-three:hover {
