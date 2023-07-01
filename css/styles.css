@@ -34,6 +34,7 @@ body {
   font-size: 2rem;
   color: #ffffff;
   margin-bottom: 2rem;
+  font-family: "Big Shoulders Display", cursive;
 }
 
 .sedans-paragraf {
@@ -58,6 +59,7 @@ body {
   font-size: 2rem;
   color: #ffffff;
   margin-bottom: 2rem;
+  font-family: "Big Shoulders Display", cursive;
 }
 
 .suvs-paragraf {
@@ -82,6 +84,7 @@ body {
   font-size: 2rem;
   color: #ffffff;
   margin-bottom: 2rem;
+  font-family: "Big Shoulders Display", cursive;
 }
 
 .luxury-paragraf {
@@ -142,7 +145,7 @@ body {
   color: var(--transparentwhite);
 }
 
-.button- .attribution {
+.attribution {
   font-size: 11px;
   text-align: center;
 }
