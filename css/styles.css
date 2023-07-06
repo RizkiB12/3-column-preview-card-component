@@ -24,7 +24,7 @@ body {
   max-width: 200px;
   padding: 30px;
   background-color: var(--brightorange);
-  border-radius: 1px;
+  border-radius: 5px 0 0 5px;
   text-align: start;
 }
 
@@ -50,7 +50,6 @@ body {
   max-width: 200px;
   padding: 30px;
   background-color: var(--darkcyan);
-  border-radius: 1px;
   text-align: start;
 }
 
@@ -76,7 +75,7 @@ body {
   max-width: 200px;
   padding: 30px;
   background-color: var(--verydarkcyan);
-  border-radius: 1px;
+  border-radius: 0 5px 5px 0;
   text-align: start;
 }
 
